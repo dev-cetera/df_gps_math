@@ -6,20 +6,20 @@ Dart & Flutter Packages by DevCetra.com & contributors.
 
 ## Summary
 
-A package that provides some math functions for global (GPS) positions. For a full feature set, please refer to the [API reference](https://pub.dev/documentation/df_gps_math/) for more information.
+A package that provides some math functions for global (GPS) positions. For a full feature set, please refer to the [API reference](https://pub.dev/documentation/df_gps_math/).
 
 ## Usage Example
 
 ```dart
-final gpsMath = GPSMath().instance;
+final gpsMath = GPSMath();
 
-// Approximate position for Hobart, Australia.
-final hobart = (lat: -42.8821, lng: 147.3272, alt: 0.0);
+// Approx. position for Hobart, Tasmania.
+const hobart = (lat: -42.8821, lng: 147.3272, alt: 0.0);
 
-// Approximate position for Pretoria, South Africa.
-final pretoria = (lat: -25.7479, lng: 28.2293, alt: 0.0);
+// Approx. position for Pretoria, South Africa.
+const pretoria = (lat: -25.7479, lng: 28.2293, alt: 0.0);
 
-// Calculate the approximate distance between Hobart and Pretoria.
+// Calculate the distance between Hobart and Pretoria.
 final distance = gpsMath.calculateHavershire3DDistance(
 pos1: hobart,
 pos2: pretoria,
@@ -29,8 +29,6 @@ radius: CelestialRadius.EARTH,
 
 print('Hobart -> Pretoria = ${distance.round()} km');
 ```
-
-Please refer to the [API reference](https://pub.dev/documentation/df_gps_math/) for more information.
 
 ## Installation
 

@@ -10,13 +10,13 @@
 import 'package:df_gps_math/df_gps_math.dart';
 
 void main() {
-  final gpsMath = GPSMath().instance;
+  final gpsMath = GPSMath();
 
   // Approx. position for Hobart, Tasmania.
-  final hobart = (lat: -42.8821, lng: 147.3272, alt: 0.0);
+  const hobart = (lat: -42.8821, lng: 147.3272, alt: 0.0);
 
   // Approx. position for Pretoria, South Africa.
-  final pretoria = (lat: -25.7479, lng: 28.2293, alt: 0.0);
+  const pretoria = (lat: -25.7479, lng: 28.2293, alt: 0.0);
 
   // Calculate the distance between Hobart and Pretoria.
   final distance = gpsMath.calculateHavershire3DDistance(
@@ -25,6 +25,6 @@ void main() {
     unit: DistanceUnit.KILOMETRES,
     radius: CelestialRadius.EARTH,
   );
-  
+
   print('Hobart -> Pretoria = ${distance.round()} km');
 }
