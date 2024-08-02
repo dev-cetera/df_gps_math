@@ -10,8 +10,6 @@
 import '/src/distance_unit.dart';
 import '/src/global_position.dart';
 import '/src/gps_math.dart';
-import 'calculate_geometric_center_on_gps_math_extension.dart';
-import 'calculate_havershire_3d_distance_on_gps_math_extension.dart';
 
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
