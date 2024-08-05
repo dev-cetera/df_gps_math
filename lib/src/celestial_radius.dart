@@ -1,8 +1,8 @@
 //.title
 // ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 //
-// Dart/Flutter (DF) Packages by DevCetra.com & contributors. See MIT LICENSE
-// file in the root directory.
+// Dart/Flutter (DF) Packages by DevCetra.com & contributors. See LICENSE file
+// in root directory.
 //
 // ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 //.title~
@@ -42,8 +42,7 @@ enum CelestialRadius {
   double get inNauticalMiles => this.convert(DistanceUnit.NAUTICAL_MILES);
   double get inFeet => this.convert(DistanceUnit.FEET);
   double get inYards => this.convert(DistanceUnit.YARDS);
-  double get inAstronomicalUnits =>
-      this.convert(DistanceUnit.ASTRONOMICAL_UNITS);
+  double get inAstronomicalUnits => this.convert(DistanceUnit.ASTRONOMICAL_UNITS);
 
   //
   //
