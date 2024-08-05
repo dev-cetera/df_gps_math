@@ -4,6 +4,7 @@
 
 - Released @ 8/2024 (UTC)
 - chore: Update workflow scripts
+- Update workflow scripts
 
 ## [0.1.1+2]
 
