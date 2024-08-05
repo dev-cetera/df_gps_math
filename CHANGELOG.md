@@ -1,6 +1,6 @@
 # Changelog
 
-## [0.1.1+3]
+## [0.1.2]
 
 - Released @ 8/2024 (UTC)
 - chore: Update workflow scripts

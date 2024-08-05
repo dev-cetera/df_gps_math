@@ -9,7 +9,7 @@
 
 name: df_gps_math
 description: A package that provides some math functions for global (GPS) positions.
-version: 0.1.1+3
+version: 0.1.2
 repository: https://github.com/robmllze/df_gps_math
 
 ## -----------------------------------------------------------------------------
