@@ -1,8 +1,9 @@
 //.title
 // ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 //
-// Dart/Flutter (DF) Packages by DevCetra.com & contributors. See LICENSE file
-// in root directory.
+// Dart/Flutter (DF) Packages by DevCetra.com & contributors. Use of this
+// source code is governed by an MIT-style license that can be found in the
+// LICENSE file.
 //
 // ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 //.title~
@@ -36,14 +37,13 @@ enum CelestialRadius {
   //
   //
 
-  double get inMetres => this.convert(DistanceUnit.METRES);
-  double get inKilometres => this.convert(DistanceUnit.KILOMETRES);
-  double get inMiles => this.convert(DistanceUnit.MILES);
-  double get inNauticalMiles => this.convert(DistanceUnit.NAUTICAL_MILES);
-  double get inFeet => this.convert(DistanceUnit.FEET);
-  double get inYards => this.convert(DistanceUnit.YARDS);
-  double get inAstronomicalUnits =>
-      this.convert(DistanceUnit.ASTRONOMICAL_UNITS);
+  double get inMetres => convert(DistanceUnit.METRES);
+  double get inKilometres => convert(DistanceUnit.KILOMETRES);
+  double get inMiles => convert(DistanceUnit.MILES);
+  double get inNauticalMiles => convert(DistanceUnit.NAUTICAL_MILES);
+  double get inFeet => convert(DistanceUnit.FEET);
+  double get inYards => convert(DistanceUnit.YARDS);
+  double get inAstronomicalUnits => convert(DistanceUnit.ASTRONOMICAL_UNITS);
 
   //
   //
