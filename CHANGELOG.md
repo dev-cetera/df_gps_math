@@ -1,5 +1,10 @@
 # Changelog
 
+## [0.1.5]
+
+- Released @ 10/2024 (UTC)
+- docs: Update topics in pubspec.yaml
+
 ## [0.1.4]
 
 - Released @ 10/2024 (UTC)
