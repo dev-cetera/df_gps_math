@@ -1,7 +1,7 @@
 //.title
 // ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 //
-// Dart/Flutter (DF) Packages by DevCetra.com & contributors. The use of this
+// Dart/Flutter (DF) Packages by dev-cetera.com & contributors. The use of this
 // source code is governed by an MIT-style license described in the LICENSE
 // file located in this project's root directory.
 //
@@ -42,8 +42,7 @@ extension CalculateZoomToFitGPSMathExtension on GPSMath {
     }
     final lngDelta = maxLng - minLng;
     // Estimate zoom level based on lng span.
-    final estimate =
-        max(0.0, 1.0 - log(lngDelta) / log(2.0) + (log(360) / log(2.0)) - 1);
+    final estimate = max(0.0, 1.0 - log(lngDelta) / log(2.0) + (log(360) / log(2.0)) - 1);
     // Apply the factor and clamp the zoom level.
     final zoom = max(minZoom, min(maxZoom, estimate)) * factor;
     return zoom;
