@@ -25,11 +25,7 @@ extension CalculateBestCentereGPSMathExtension on GPSMath {
     required DistanceUnit distanceUnit,
   }) {
     if (locations.isEmpty) {
-      return (
-        lat: 0.0,
-        lng: 0.0,
-        alt: 0.0,
-      );
+      return (lat: 0.0, lng: 0.0, alt: 0.0);
     }
     var center = calculateGeometricCenter(locations);
     var closestMarker = locations.first;

@@ -17,15 +17,9 @@ import '/src/global_position.dart';
 
 extension CalculateGeometricCentereGPSMathExtension on GPSMath {
   /// Calculates the geometric center of a set of locations.
-  GlobalPosition calculateGeometricCenter(
-    Set<GlobalPosition> locations,
-  ) {
+  GlobalPosition calculateGeometricCenter(Set<GlobalPosition> locations) {
     if (locations.isEmpty) {
-      return (
-        alt: 0.0,
-        lat: 0.0,
-        lng: 0.0,
-      );
+      return (alt: 0.0, lat: 0.0, lng: 0.0);
     }
     var sumLat = 0.0;
     var sumLng = 0.0;

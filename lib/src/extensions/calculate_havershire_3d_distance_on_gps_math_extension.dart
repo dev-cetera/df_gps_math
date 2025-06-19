@@ -64,7 +64,8 @@ extension CalculateHavershire3DDistanceGPSMathExtension on GPSMath {
     final deltaLon = (lon2 - lon1) * pi / 180;
 
     // Calculate the horizontal distance using the Haversine formula.
-    final a = sin(deltaLat / 2) * sin(deltaLat / 2) +
+    final a =
+        sin(deltaLat / 2) * sin(deltaLat / 2) +
         cos(radLat1) * cos(radLat2) * sin(deltaLon / 2) * sin(deltaLon / 2);
     final c = 2 * atan2(sqrt(a), sqrt(1 - a));
     final d = r * c;
